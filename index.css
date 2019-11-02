@@ -1,10 +1,6 @@
-.header{
-    height: 40hw;
+.img{
+    position:relaive;
 }
-.img-header{
-    height: 30hw;
-    width: 100vw;
-}
-.content-img{
-    width: 33%;
+.title{
+    position:absolute;opacity:0;top:0px;
 }
