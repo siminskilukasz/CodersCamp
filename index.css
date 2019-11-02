@@ -1,3 +1,10 @@
-.menu{
-    display:block;
+.header{
+    height: 40hw;
+}
+.img-header{
+    height: 30hw;
+    width: 100vw;
+}
+.content-img{
+    width: 33%;
 }

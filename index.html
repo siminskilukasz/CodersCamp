@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+<!-- meta tags -->
     <meta charset="utf-8">
-    <title>My Web Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="desrription" content="This is my firs website">
     <meta name="author" content="Łukasz Siminski">
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" href="index.css">
+
+<!-- Title  -->
+    <title>My Web Site</title>
+
+        <!-- Local CSS -->
+<link rel="stylesheet" href="index.css">
+
+<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </head>
-<body>
-    <div class="container">
+    <div class="container" class="header">
         <div class="row">
-            <header>
-                    <nav id="menu" class="menu-class">
-                            <ul>
-                                <li class="active"><a href="#aboutme">About me</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </nav>
-            </header>
-            <div id="aboutme" class="aboutme-class">
-                <div class="picture"><img src="#" alt="me"></div>
-                <div class="info">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ut soluta laboriosam obcaecati quo ullam impedit, quis aperiam, adipisci repellat aspernatur perferendis unde eos consequuntur temporibus amet recusandae, inventore ex.</p>
-                </div>
-                </div>
-            <main>
-                <div id="projects" class="projects-class">
-                        <h2>Projects</h2>
-                        <div class="block photo">Photography</div>
-                        <div class="block webdesign">Web Design</div>
-                </div>        
-                <div class="block scrum">Scrum Master</div>
-                <div id="Skills class="skills-class>
-                            <h2>
-                                Skills
-                            </h2>
-                            <section>
-                                <div><p>HTML</p></div>
-                                <div><p>CSS</p></div>
-                                <div><p>JavaScript</p></div>
-                                <div><p>WebDesign</p></div>
-                            </section>
-                        </div>
-                        <div id="contact" class="contact-class">
-                            <h2>
-                                Contact
-                            </h2>
-                        </div>
-                        <footer>
-                                <p class="footer">Copyrights</p>
-                        </footer>    
-            </main>
+            <img src="/src/creation.jpg" alt="przykładowe zdjęcie" class="img-header">
+            <h2>O mnie
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolore quaerat deleniti non quidem cumque sint, atque ipsum voluptate, nam odio quos debitis possimus placeat velit porro blanditiis laboriosam! Iusto!
+            </p>
+            </h2>
         </div>
+        <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="nav-link active" href="#">Projektowanie WWW</a>
+                        <img src="/src/code.jpg" alt="podstawowe narzędzie programisty, komputer" class="card-img-top">
+                        <div>
+                            <!-- <h3 class="content">Strony WWW</h3> -->
+                            <p lass="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequuntur labore beatae quam voluptate libero harum est magnam, placeat fuga. Perferendis fuga nihil voluptate eaque. Quibusdam,doloribus. Fuga, ad iste!
+                            </p>         
+                        </div>
+                        
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="nav-link" href="#">Fotografia</a>
+                        <img src="/src/photo.jpg" alt="aparat fotograficzny na statywie wymierzony w pejzarz górski" class="card-img-top">
+                        <div>
+                            <!-- <h3 class="content">Fotografia</h3> -->
+                            <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam explicabo blanditiis nobis fugiat perspiciatis, nam architecto magni ducimus illo tempore, mollitia accusamus dignissimos numquam libero consequuntur at laudantium exercitationem?
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="card" style="width: 18rem;">
+                        <a class="nav-link" href="#">Scrum Master</a>
+                        <img src="/src/scrum.jpg" alt="foto. pracująceg grupy ludzi" class="card-img-top">
+                        <div>
+                            <!-- <h3 class="content">Scrum Master</h3> -->
+                            <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur error doloribus quidem itaque, voluptatem nihil esse ut obcaecati nam exercitationem labore modi voluptate! Sunt voluptate suscipit, recusandae in molestias ut.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
     </div>
-</body>
+
+    
 
 
 </html>
