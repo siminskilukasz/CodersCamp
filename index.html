@@ -7,71 +7,138 @@
     <meta name="desrription" content="This is my firs website">
     <meta name="author" content="Łukasz Siminski">
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-
 <!-- Title  -->
     <title>My Web Site</title>
-
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
             <!-- Local CSS -->
 <link rel="stylesheet" href="index.css">
 
 </head>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+<div class="container">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#web">WEB</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#photo">PHOTO</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#scrum">SCRUM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#utilities">UTILITIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">CONTACT</a>
                         </li>
                     </ul>
-                </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container feature">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
-                </div>
-                    <div class="col-md-5">
-                        <img src="img/code-cut.jpg" alt="someone is coding">
+                    </nav>
+                    <div class="container">
+                        <div class="row first-picture">
+                            <img src="img/creation-cut.jpg" class="img-fluid round" alt="">
+                        </div>
                     </div>
-            </div>
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
-                </div>
-                    <div class="col-md-5 order-md-1">
-                        <img src="img/photo-cut.jpg" alt="photocamera">
+                    <div class="container">
+                        <div class="row intro">
+                                <h2 class="info">
+                                    ABOUT ME
+                                    <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis autem, ducimus fugiat quaerat fuga dolores culpa corporis ad tempora consequatur cum ipsam debitis, amet maxime quod id quo iste.
+                                    </p>
+                                </h2>
+                        </div>
                     </div>
-            </div>
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
-                </div>
-                    <div class="col-md-5">
-                        <img src="img/scrum-cut.jpg" alt="scrum team is working">
-                    </div>
-            </div>
+                </header>
+                <main class="">
+                        <div class="row">
+                            <div class="feature">
+                                <div class="row featurette">
+                                            <div class="col-md-7">
+                                                <h2 class="featurette-heading" id="web">Web Developer</h2>
+                                                <h3><span class="text-muted">It’ll blow your mind.</span></h3>
+                                                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
+                                            </div>
+                                                <div class="col-md-5">
+                                                    <img src="img/code-cut.jpg" class="rounded float-right img-thumbnail"alt="someone is coding">
+                                                </div>
+                                </div>
+                                <div class="row featurette">
+                                            <div class="col-md-7 order-md-2">
+                                                <h2 class="featurette-heading" id="photo">Photographer</h2>
+                                                <h3><span class="text-muted">It’ll blow your mind.</span></h3>
+                                                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
+                                            </div>
+                                                <div class="col-md-5 order-md-1">
+                                                    <img src="img/photo-cut.jpg" class="rounded float-left img-thumbnail" alt="photocamera">
+                                                </div>
+                                </div>
+                                <div class="row featurette">
+                                            <div class="col-md-7">
+                                                <h2 class="featurette-heading" id="scrum">Scrum Master</h2>
+                                                <span class="text-muted">It’ll blow your mind.</span>
+                                                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quam molestias! Repudiandae reprehenderit quibusdam consectetur nobis? Debitis incidunt suscipit aspernatur laudantium dolores? Voluptate dicta quia, nihil laborum et tempore? Ad!</p>
+                                            </div>
+                                                <div class="col-md-5">
+                                                    <img src="img/scrum-cut.jpg" class="rounded float-right img-thumbnail" alt="scrum team is working">
+                                                </div>
+                                </div>
+                            </div>
+                        <div class="container utilities" id="utilities">
+                            <div class="row">
+                                <div class="github">
+                                    <div class="col-md-3">
+                                        <div class="feature-center">
+                                            <a href="https://github.com/siminskilukasz" target="_blank">
+                                                <img src="img/git.png" class="icon"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="linkedin">
+                                    <div class="col-md-3">
+                                        <div class="feature-center">
+                                            <a href="http://linkedin.com/in/lukaszsiminski" target="_blank">
+                                                <img src="img/linkedin.png" class="icon"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="facebook">
+                                    <div class="col-md-3">
+                                        <div class="feature-center">
+                                            <a href="https://facebook.com/lukasz.siminski" target="_blank">
+                                                <img src="img/facebook.png" class="icon"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instagram">
+                                    <div class="col-md-3">
+                                        <div class="feature-center">
+                                            <a href="https://instagram.com/the_usiu_photography/" target="_blank">
+                                                <img src="img/instagram.png" class="icon"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-
-    </main
+                        </div>
+                        <div class="container " id="contact">
+                           
+                        </div>
+                </main>
+                <footer class="row footer">
+                    <p>Copyright </p>
+                </footer>
+    </div>
+</div>
+    
+   
 </html>

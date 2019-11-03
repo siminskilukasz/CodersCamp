@@ -1,6 +1,41 @@
-.img{
-    position:relaive;
+
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
-.title{
-    position:absolute;opacity:0;top:0px;
+.container{
+    height: 50vh;
+    margin-bottom: 1em;
+}
+.feature{
+    padding-bottom: 3px;
+    justify-content: center;
+}
+.intro{
+    height: 25vh;
+    text-align: center;
+    text-align: justify;
+    justify-items: center;
+    background-color: lightslategrey;
+}
+
+.lead{
+    text-align: center;
+    text-align: justify;
+    justify-items: center;
+}
+
+.row{
+    margin: 0 0 5em 0;
+}
+
+.utilities{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    height: 90px;
+
 }
